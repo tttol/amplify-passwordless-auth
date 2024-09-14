@@ -22,7 +22,8 @@ export default function Home() {
   return (
     <>
       <h1>Hello amplify-passwordless-auth</h1>
-      <p><a href="/signin/simple">Simple Sign-in</a></p>
+      <h2>FIDO2 Sign-in</h2>
+      <p><a href="/signin/simple">Go to Simple Sign-in</a></p>
       <PasswordlessContextProvider enableLocalUserCache={true}>
         <PasswordlessComponent
           brand={{

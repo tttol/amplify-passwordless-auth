@@ -1,5 +1,15 @@
 # Amplify Passwordless Auth
-### Lambda関数
+# Get Started
+AWSリソース作成
+```bash
+npx ampx sandbox
+```
+
+アプリ起動 → http://localhost:3000/ へアクセス
+```bash
+npm run dev
+```
+# Lambda関数
 - CustomS3AutoDeleteObjectsCust-eDXjTHkR4qXi
   - 
 - CreateAuthChallen
